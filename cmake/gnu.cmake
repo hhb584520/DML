@@ -8,7 +8,6 @@ list(APPEND DML_SECURITY_OPTIONS
     --param=ssp-buffer-size=8
     -Wl,-z,relro,-z,now
     -Wl,-z,noexecstack
-    -fstack-clash-protection
     )
 
 list(APPEND DML_SECURITY_DEFINITIONS

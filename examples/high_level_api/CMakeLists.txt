@@ -9,7 +9,7 @@ project(dmlhl_examples CXX)
 if (WIN32)
     add_compile_options(/WX /W3)
 else()
-    add_compile_options(-Werror -Wall)
+    add_compile_options(-Wall)
 endif()
 
 add_executable(dmlhl_mem_move_example mem_move.cpp)

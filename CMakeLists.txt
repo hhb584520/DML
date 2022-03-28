@@ -48,7 +48,7 @@ message(STATUS "Hardware initialization logging: ${LOG_HW_INIT}")
 get_git_revision()
 
 add_subdirectory(sources)
-add_subdirectory(examples)
+#add_subdirectory(examples)
 
 # Install rules
 install(EXPORT ${PROJECT_NAME}Targets
